@@ -1,4 +1,4 @@
-function src --wraps='apt-cache search' --description 'alias src=apt-cache search'
-  apt-cache search $argv
+function src --wraps='dnf search' --description 'alias src=dnf search'
+  dnf search $argv
         
 end
