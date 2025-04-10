@@ -1,4 +1,4 @@
-function rmv --wraps='sudo dnf remove' --description 'alias rmv=sudo dnf remove'
-    sudo dnf remove $argv
+function rmv --wraps='sudo apt remove' --description 'alias rmv=sudo apt remove'
+    sudo apt autoremove --purge $argv
 
 end
