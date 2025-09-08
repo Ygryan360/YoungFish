@@ -1,4 +1,4 @@
-function uu --wraps='sudo dnf update' --description 'Update & Upgrade with dnf'
-  sudo dnf update -y $argv
+function uu --wraps='sudo apt update' --description 'Update & Upgrade with apt'
+  sudo apt update -y $argv
         
 end

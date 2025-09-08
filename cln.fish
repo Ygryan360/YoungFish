@@ -1,4 +1,4 @@
-function cln --wraps='sudo dnf clean' --description 'alias de sudo dnf clean'
-  sudo dnf clean all $argv
+function cln --wraps='sudo apt clean' --description 'alias de sudo apt clean'
+  sudo apt clean all $argv
         
 end
