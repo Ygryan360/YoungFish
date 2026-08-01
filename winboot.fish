@@ -1,4 +1,6 @@
 function winboot --wraps=winboot --description 'reboot system to Windows'
-    grub2-reboot "Windows Boot Manager (on /dev/sda4)"
-    reboot
+    set -l entry "Windows Boot Manager (on /dev/sda4)"
+    echo "Préparation du redémarrage unique sur Windows..."
+    sudo grub-reboot "$entry"
+    sudo reboot
 end
