@@ -1,1 +1,5 @@
 fish_prompt.fish
+_tide_*.fish
+tide.fish
+fish_mode_prompt.fish
+tide/
